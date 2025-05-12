@@ -27,18 +27,20 @@ La base de datos se ejecuta en un contenedor Docker utilizando la última versi�
 ## 🚀 Instrucciones para levantar el contenedor
 Nota: Instala Docker Desktop para verificar que el contenedor este corriendo
 
-1. Clona el repositorio:
+### 1. Clona el repositorio:
 
 ```bash
 git clone https://github.com/tu-usuario/IWellness-DB.git
 cd IWellness-DB
 ```
 
-2. Levanta el contenedor
+### 2. Levanta el contenedor
 ```bash
 docker-compose up -d
 ```
-4. Verifica que el contenedor este corriendo
+### 3. Verifica que el contenedor este corriendo
+```bash
 Puedes abrir una terminal (no la misma de donde esta corriendo la BD) para verificar:
 docker ps
-O desde la aplicación de Docker puedes revisar.
+```
+📌 **Nota:**  Desde la aplicación de Docker también puedes revisar.
