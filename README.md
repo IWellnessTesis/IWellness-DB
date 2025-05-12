@@ -32,11 +32,13 @@ Nota: Instala Docker Desktop para verificar que el contenedor este corriendo
 ```bash
 git clone https://github.com/tu-usuario/IWellness-DB.git
 cd IWellness-DB
+```
 
 2. Levanta el contenedor
+```bash
 docker-compose up -d
-
-3. Verifica que el contenedor este corriendo
+```
+4. Verifica que el contenedor este corriendo
 Puedes abrir una terminal (no la misma de donde esta corriendo la BD) para verificar:
 docker ps
 O desde la aplicación de Docker puedes revisar.
