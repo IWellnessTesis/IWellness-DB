@@ -4,7 +4,7 @@ Repositorio que contiene la configuración de la **base de datos MySQL** del eco
 
 Esta base de datos actúa como destino final de la información procesada por el sistema. Recibe datos desde una cola de mensajes (RabbitMQ) mediante un **consumer en Python**, y los envía a un script que realiza el procesamiento final antes de ser entregado al **frontend**.
 
-> 📌 **Nota:** Este repositorio funciona en conjunto con [`IWellness_Data_Analysis`](https://github.com/tu-usuario/IWellness_Data_Analysis) (reemplaza el enlace por el real).
+> 📌 **Nota:** Este repositorio funciona en conjunto con [`IWellness_Data_Services`]([https://github.com/IWellnessTesis/IWellness_data_services/tree/main]).
 
 ---
 
