@@ -8,8 +8,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: db_iwellness
-      MYSQL_USER: root
-      MYSQL_PASSWORD: root
+      MYSQL_USER: iwellness_user
+      MYSQL_PASSWORD: iwellness_password
     volumes:
       - mysql_data:/var/lib/mysql
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql

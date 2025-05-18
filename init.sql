@@ -36,7 +36,7 @@ CREATE TABLE Service_Location_Info (
     estado BOOLEAN,
     nombre_empresa VARCHAR(100),
     idProveedor BIGINT,
-    idUsuario BIGINT,
+    idUsuario BIGINT
 );
 
 -- Tabla: Book_Service_Info
